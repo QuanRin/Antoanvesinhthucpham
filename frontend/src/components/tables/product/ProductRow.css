@@ -1,0 +1,28 @@
+.product-table-row td:last-child {
+  margin: 0px 20px;
+  width: 600px;
+  /* max-width: 500px; */
+}
+.product-table-row td:nth-child(1) {
+  width: 20px;
+}
+.product-table-row td:nth-child(4) {
+  width: 15px;
+}
+.product-table-row td {
+  width: 140px;
+}
+/* .product-table-row td{
+    width: 80px;
+} */
+.product-table-row td:last-child button {
+  width: 120px;
+  height: 40px;
+  background-color: var(--activeItem);
+  margin: 0px 6px;
+  line-height: 10px;
+  transition: transform 0.1s ease;
+}
+.product-table-row td:last-child button:hover {
+  transform: scale(1.1);
+}

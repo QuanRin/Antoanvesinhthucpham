@@ -1,0 +1,161 @@
+/* 
+.Pause:nth-child(6){
+    border-radius: 30px;
+    text-align: center;
+    color: red;
+    background-color: #ffadad8f;
+}
+.Active:nth-child(6) {
+    background-color: rgb(145 254 159/49%);
+    color: green;
+   border-radius: 30px;
+   text-align: center;
+}      
+.Stores-header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}  
+.Stores-header button{
+    width: 110px;
+    height: 35px;
+    background-color: #f799a354;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rt-td>button{
+    background-color:#f799a354 ;
+    text-align: center;
+} */
+/* table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  font-size: 0.75rem;
+}
+
+table * {
+  position: relative;
+}
+
+/* td,
+  th {
+    padding-left: 2rem;
+  } */
+
+/* thead tr {
+  height: 60px;
+  background: #ffed86;
+  font-size: 16px;
+}
+tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #e3f1d5;
+ 
+}  */
+/* thead tr th,
+tbody tr td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* tbody tr:last-child {
+  border: 0;
+} */
+
+.header-users {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header-users .btn {
+  width: 140px;
+  height: 50px;
+  padding: 10px;
+  background-color: rgb(251, 123, 144);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 300;
+  transition: transform 0.2s ease;
+}
+.header-users .btn:hover {
+  transform: scale(1.1);
+}
+.header-users .searching {
+  width: 650px;
+  height: 50px;
+  background-color: var(--activeItem);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+}
+.header-users .searching input {
+  width: 170px;
+  height: 20px;
+  padding: 5px 18px;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.header-users .searching span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+}
+.header-users .searching button {
+  width: 70px;
+  height: 35px;
+  padding: 5px;
+  background-color: rgb(251, 123, 144);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.header-users .btn-area {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination {
+  margin-top: 10px;
+  width: 100%;
+  /* height: 20px; */
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+}
+/* .MuiPaginationItem-root.Mui-selected:hover {
+  background-color: red !important; 
+} */
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: var(--activeItem) !important;
+}

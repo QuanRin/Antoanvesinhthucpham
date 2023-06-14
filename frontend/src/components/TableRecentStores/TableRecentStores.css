@@ -1,0 +1,27 @@
+.TableRecentStore {
+  width: 100%;
+  border: none;
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.header-column-store {
+  background-color: #f5adb554;
+}
+.TableRecentStore h1 {
+  position: relative;
+  height: 20px;
+  font-size: 24px;
+}
+.TableRecentStore table {
+  /* border: none;
+  overflow: hidden;
+  border-radius: 20px; */
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.TableRecentStore table thead tr th {
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 400;
+}

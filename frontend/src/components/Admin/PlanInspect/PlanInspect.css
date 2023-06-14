@@ -1,0 +1,62 @@
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  /* border-collapse: collapse; */
+}
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+table * {
+  position: relative;
+}
+
+thead tr {
+  height: 60px;
+  background: var(--activeItem);
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #e3f1d5;
+  max-width: 50px;
+}
+
+td {
+  padding: 1rem;
+}
+.planInspect-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.planInspect-header .btn-add-plan {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(251, 123, 144);
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 5px;
+  transition: transform 0.2s ease;
+}
+.planInspect-header .btn-add-plan:hover {
+  transform: scale(1.1);
+}

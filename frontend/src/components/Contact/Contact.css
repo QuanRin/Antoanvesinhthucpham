@@ -1,0 +1,82 @@
+.Contact-container {
+  width: 100%;
+  height: 655px;
+  background-color: #ff919d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact-content {
+  width: 80%;
+  margin-left: 10px;
+}
+.Contact-content h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 25px;
+  width: 1000px;
+}
+.Contact-content-row {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+}
+.Contact-content-row > span {
+  text-align: center;
+  line-height: 53px;
+  min-width: 220px;
+  text-align: center;
+}
+.Contact-content-row .Contact-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact-content-row p {
+  text-align: start;
+  width: 1000px;
+}
+
+.Contact-hotline {
+  margin-top: 50px;
+  margin-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+.Contact-hotline .hotline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 270px;
+  border: 1px solid white;
+  margin: 20px;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.hotline-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff919d;
+  border-radius: 30px;
+  color: black;
+  font-weight: 500;
+}
+.hotline-content {
+  min-width: 130px;
+}
+.hotline-content > p {
+  font-size: 16px;
+  font-weight: 450;
+}
+.hotline-content > h5 {
+  font-size: 15px;
+  font-weight: 550;
+}

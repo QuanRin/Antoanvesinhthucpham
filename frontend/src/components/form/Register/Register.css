@@ -1,0 +1,93 @@
+.Register-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    106.37deg,
+    #ffe1bc 29.63%,
+    #ffcfd1 51.55%,
+    #f3c6f1 90.85%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Register-content {
+  width: 97vw;
+  height: 97vh;
+  background-color: rgba(255, 255, 255, 0.54);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Register-form {
+  width: 600px;
+  height: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.Register-form form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Register-form h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.Register-form form .form-group {
+  width: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3px 0px;
+}
+.Register-form form .form-input-control {
+  height: 25px;
+  border: none;
+  border-radius: 30px;
+}
+.Register-form form select {
+  height: 40px;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.Register-form form .form-group input {
+  border: 1px solid black;
+  padding: 10px;
+}
+.Register-form form .form-group input:focus {
+  outline-color: #f799a354;
+}
+.Register-form form label {
+  text-align: start;
+}
+
+/* btn */
+
+.Register-form button {
+  margin-top: 10px;
+  width: 310px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  background-color: #d48088cd;
+  cursor: pointer;
+  font-weight: 500px;
+  font-size: 14px;
+}

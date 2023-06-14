@@ -1,0 +1,17 @@
+.notification-row-content {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.54);
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 30px;
+}
+/* .notification-row-content.even {
+  background-color: linear-gradient(180deg, #bb67ff 0%, #c484f3 100%);
+} */
+/* --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+  --pink: #FF919D; */

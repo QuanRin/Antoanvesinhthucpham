@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "jsx": "react",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "baseUrl": "src",
+    "paths": {
+      "~components": ["components/index.js"],
+      "~hooks": ["hooks/index.js"],
+      "~pages": ["pages/index.js"],
+      "~utils": ["utils/index.js"],
+      "~service": ["service/index.js"],
+      "~store": ["store/index.js"],
+      "~config": ["config/index.js"],
+      "~hoc": ["hoc/index.js"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}

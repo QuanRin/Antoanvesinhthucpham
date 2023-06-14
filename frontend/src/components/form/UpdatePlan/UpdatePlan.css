@@ -1,0 +1,72 @@
+.UpdatePLan-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.UpdatePlan-content {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.UpdatePlan-content h1 {
+  font-size: 23px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  font-weight: 400;
+}
+.UpdatePlan-content form {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.UpdatePlan-content form > input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+}
+.UpdatePlan-content .x-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+.UpdatePlan-content .x-icon:hover {
+  background-color: #a1a1a1;
+}
+.UpdatePlan-content > button {
+  position: absolute;
+  bottom: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #f799a354;
+
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

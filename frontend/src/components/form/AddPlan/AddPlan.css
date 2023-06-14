@@ -1,0 +1,93 @@
+.AddPlan-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.AddPlan-content {
+  position: fixed;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AddPlan-content h1 {
+  position: absolute;
+  top: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.AddPlan-content form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+}
+.AddPlan-content form .form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 10px;
+}
+.AddPlan-content form .form-group input {
+  width: 220px;
+  line-height: 30px;
+}
+.AddPlan-content form .form-group label {
+  height: 30px;
+  line-height: 30px;
+  padding-right: 5px;
+}
+.AddPlan-content form .form-group select {
+  height: 30px;
+  line-height: 30px;
+  width: 224px;
+}
+.AddPlan-content button {
+  width: 270px;
+  height: 35px;
+  background-color: #f799a354;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.AddPlan-content .x-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.AddPlan-content .x-icon:hover {
+  background-color: #a1a1a1;
+}

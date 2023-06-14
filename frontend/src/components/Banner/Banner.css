@@ -1,0 +1,58 @@
+.Home {
+  width: 100%;
+  height: 88vh;
+  background: url(../../../asset/backGroundHomePage.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Home-content {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 10px 20px 0px var(--glass);
+  border-radius: 30px;
+  text-align: center;
+}
+.Home-content h2 {
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 550;
+}
+.Home-content h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.Home-content form {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14%;
+  margin-top: 17px;
+}
+.Home-content form input {
+  padding: 15px;
+  margin-left: 5px;
+  width: 60%;
+  border: 1px solid #ff919d;
+  border-radius: 30px;
+}
+.Home-content form input:focus {
+  outline: none;
+}
+.Home-content form button {
+  width: 150px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff919d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

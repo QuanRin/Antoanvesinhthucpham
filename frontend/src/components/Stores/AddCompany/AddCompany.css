@@ -1,0 +1,100 @@
+.add-company-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.add-company-content {
+  width: 97vw;
+  height: 97vh;
+
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-company-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+  border: none;
+  border-radius: 60px;
+  background-color: white;
+  padding: 30px;
+}
+.add-company-form h1 {
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 450;
+}
+.add-company-content form {
+  width: 100%;
+  height: 400px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Company-infor {
+  margin: 0px 10px;
+  padding: 10px;
+}
+.Company-infor .form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0px;
+}
+.Company-infor .form-group .label span {
+  color: red;
+}
+.Company-infor .form-group input {
+  padding: 8px;
+  width: 180px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.add-company-form .Company-infor .form-group select {
+  padding: 8px;
+  width: 200px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.add-company-content button {
+  width: 330px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #f799a354;
+  text-transform: uppercase;
+}
+.add-company-content .x-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.add-company-content .x-icon:hover {
+  background-color: #a1a1a1;
+}
